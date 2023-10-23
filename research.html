@@ -16,9 +16,9 @@
   <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
   <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/monogram-32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/monogram-96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/monogram-16.png">
   <link rel="manifest" href="img/favicons/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
@@ -33,8 +33,7 @@
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Leckerli+One&display=swap"
-  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
   <!-- Main local styles -->
   <link rel="stylesheet" href="css/main.css">
@@ -45,28 +44,30 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-light navbar-light">
+  <nav id="page-navbar" class="navbar navbar-expand-md bg-light navbar-light">
     <div class="container">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-body">
-            <ul class="navbar-nav mr-auto"></ul>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item px-2">
-                    <a class="nav-link" href="https://drive.google.com/file/d/1y4CxWkL2gtic89czM2VZ9j-VuA1voNLm/view" target="_blank">CV</a>
-                </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link" href="research.html">Research</a>
-                </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link" href="teaching.html">Teaching</a>
-                </li>
-            </ul>
-        </div>
+    <!-- <div class="container"> -->
+      <a class="navbar-brand pl-2" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fa fa-bars fa-fw black"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-body">
+        <ul class="navbar-nav ml-auto mr-2 pr-2">
+          <li id="research" class="nav-item text-white mr-2">
+            <a class="nav-link" href="https://drive.google.com/file/d/1y4CxWkL2gtic89czM2VZ9j-VuA1voNLm/view" target="_blank">CV</a>
+          </li>
+          <li id="research" class="nav-item text-white mr-2 active">
+            <a class="nav-link" href="research.html">Research</a>
+          </li>
+            <li id="research" class="nav-item text-white mr-2">
+              <a class="nav-link" href="teaching.html">Teaching</a>
+            </li>
+        </ul>
+      </div>
+    <!-- </div> -->
     </div>
-</nav>
+  </nav>
 
       <!-- main wrapper div -->
 
@@ -134,6 +135,7 @@
       <li class="list-group-item">
         <p class="papertitlefont" id="marginhpcc"><strong><a class="navbar-brand" href="https://doi.org/10.1016/j.jpubeco.2022.104626" target="_blank">The Effect of Emergency Financial Assistance on Healthcare Use</a></strong><br>
           <span class="papertitlefont"> -- with David Phillips and Jim Sullivan</span><br>
+          <span class="papertitlefont"> <i> Journal of Public Economics (2022)</i></span><br>
           <span class="paperabstractfont"> Does providing ﬁnancial assistance to people who have just experienced an income shock affect their healthcare use? To address this question, we examine healthcare outcomes in a setting where people at risk of homelessness due to an income shock were offered or denied referral to ﬁnancial assistance quasi-randomly. Among callers who have been screened as eligible for assistance at Chicago’s Homelessness Prevention Call Center (HPCC), some are denied assistance because the availability of funding varies. Conditional on some observable characteristics, funding availability is as-good-as-randomly assigned to callers. We link callers to healthcare utilization records and observe their inpatient hospital stays and emergency department visits. We ﬁnd that referral to ﬁnancial assistance has little effect on overall healthcare use–we can reject increases in total utilization greater than 7% of the base rate and decreases of more than 4%. This null effect can be explained, in part, by the fact that the income shock does not signiﬁcantly change overall healthcare use among those not receiving assistance, suggesting that these individuals can insure health and healthcare demand against these shocks in other ways.</span>
         </p>
       </li>
