@@ -527,3 +527,13 @@ input::placeholder {
   font-size: 0.9rem !important;
   /* This indents the first line by 40px */
 }
+
+@media (max-width: 768px) {
+  .order-1 {
+    order: 1;
+  }
+
+  .order-2 {
+    order: 2;
+  }
+}
