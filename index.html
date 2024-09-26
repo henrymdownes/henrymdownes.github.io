@@ -80,11 +80,10 @@
 
   <div class="container" id="wrapper">
     <div class="row">
-      <div class="col-sm-4 order-2 order-sm-1"> <!-- Changed order here -->
+      <div class="col-sm-4 d-none d-sm-block"> <!-- Headshot on large screens -->
         <div class="text-center">
           <img src="img/headshot.jpg" class="rounded img-fluid shadow-sm" alt="professional headshot">
         </div>
-
         <table class="table mt-4" id="contact-table">
           <tbody>
             <tr class="d-flex">
@@ -101,18 +100,17 @@
           </tbody>
         </table>
       </div>
-      <!-- col-sm-4 -->
 
-      <div class="col-sm-8 order-1 order-sm-2 px-4"> <!-- Changed order here -->
+      <div class="col-sm-8"> <!-- Header Info -->
         <h1>Henry Downes</h1>
         <p class="position-title mt-2 mb-1">PhD Candidate</p>
         <p class="position-title mt-0 mb-4">The University of Notre Dame</p>
 
         <p>I am a PhD candidate and applied microeconomist in the Economics Department at the University of Notre Dame. I am interested in labor economics, public economics, and economic demography, with applications in both historical and contemporary settings.</p>
 
-        <p><b>I am on the job market during the 2024-2025 academic year.</b> My <a href="/uploads/Downes_JMP.pdf" target="_blank"> Job Market Paper</a> explores how the rise of organized labor shaped economic and demographic outcomes during the American Baby Boom. </p>
+        <p><b>I am on the job market during the 2024-2025 academic year.</b> My <a href="/uploads/Downes_JMP.pdf" target="_blank">Job Market Paper</a> explores how the rise of organized labor shaped economic and demographic outcomes during the American Baby Boom.</p>
 
-        <p>I have worked as a Research Associate at the <a href="https://leo.nd.edu/" target="_blank"> Wilson-Sheehan Lab for Economics Opportunities</a>, and in 2023-2024 I was a Graduate Fellow of the Notre Dame Institute for Advanced Study. My work has been supported by the Economic History Association and the Smith Richardson Foundation.</p>
+        <p>I have worked as a Research Associate at the <a href="https://leo.nd.edu/" target="_blank">Wilson-Sheehan Lab for Economics Opportunities</a>, and in 2023-2024 I was a Graduate Fellow of the Notre Dame Institute for Advanced Study. My work has been supported by the Economic History Association and the Smith Richardson Foundation.</p>
 
         <h3><span>Education</span></h3>
         <ul id="education" class="list-group">
@@ -133,11 +131,31 @@
           </li>
         </ul>
       </div>
-      <!-- col-sm-8 -->
     </div>
-    <!-- .row -->
+    
+    <div class="row d-block d-sm-none"> <!-- Header Info on small screens -->
+      <div class="col-12 text-center mb-4"> <!-- Headshot -->
+        <img src="img/headshot.jpg" class="rounded img-fluid shadow-sm" alt="professional headshot">
+      </div>
+      <div class="col-12"> <!-- Contact Table on small screens -->
+        <table class="table mt-4" id="contact-table">
+          <tbody>
+            <tr class="d-flex">
+              <td class="col-2"><i class="fa fa-fw fa-lg fa-home"></i></td>
+              <td class="col-10">3085 Jenkins Nanovic Hall<br>
+                University of Notre Dame<br>
+                Notre Dame, IN 46556<br>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-2"><i class="fa fa-lg fa-envelope"></i></td>
+              <td class="col-10"><a href="mailto:hdownes@nd.edu">hdownes@nd.edu</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
-  <!-- container -->
 
 
 
