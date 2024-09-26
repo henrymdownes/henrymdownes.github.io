@@ -375,8 +375,8 @@ cite {
 
 /* wrapper -------------------------------------------------- */
 #wrapper {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 #wrapper a {
@@ -445,7 +445,7 @@ input::placeholder {
   }
 }
 
-#margin3yp {
+/* #margin3yp {
   margin-top: 0px;
 }
 
@@ -455,7 +455,8 @@ input::placeholder {
 
 #marginhpcc {
   margin-top: 0px;
-}
+  margin-bottom: 5px;
+} */
 
 
 #researchblock {
@@ -470,11 +471,13 @@ input::placeholder {
 
 .papertitlefont {
   font-size: 1rem !important;
+  margin: 0;
+  padding: 0;
 }
 
-.paperabstractfont {
+/* .paperabstractfont {
   font-size: 0.9rem !important;
-}
+} */
 
 #photo3yp {
   margin-top: 15px;
@@ -486,4 +489,41 @@ input::placeholder {
 
 #photohpcc {
   margin-top: 15px;
+}
+
+.publication {
+  /* background-color: white; */
+  padding: 5px;
+  margin: 5px 0;
+  /* border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.publication h3 {
+  margin: 0;
+}
+
+.publication p {
+  margin: 0;
+}
+
+.abstract {
+  margin-left: 40px !important;
+  margin-top: 5px;
+  font-size: 0.9rem !important;
+  /* This indents the first line by 40px */
+}
+
+.coauthor {
+  margin-left: 40px !important;
+  margin-top: 5px;
+  font-size: 0.9rem !important;
+  /* This indents the first line by 40px */
+}
+
+.journal {
+  margin-left: 40px !important;
+  margin-top: 5px;
+  font-size: 0.9rem !important;
+  /* This indents the first line by 40px */
 }
