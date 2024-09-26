@@ -80,9 +80,34 @@
 
   <div class="container" id="wrapper">
     <div class="row">
-      <div class="col-sm-8 order-sm-2 order-1 px-4"> <!-- Adjusted -->
-        <h1>Henry Downes</h1>
+      <!-- Headshot image and contact table (will appear after heading on mobile, but together on large screens) -->
+      <div class="col-sm-4 order-2 order-md-1">
+        <div class="text-center">
+          <img src="img/headshot.jpg" class="rounded img-fluid shadow-sm" alt="professional headshot">
+        </div>
   
+        <!-- Contact table will always be below the headshot on larger screens -->
+        <table class="table mt-4" id="contact-table">
+          <tbody>
+            <tr class="d-flex">
+              <td class="col-2"><i class="fa fa-fw fa-lg fa-home"></i></td>
+              <td class="col-10">3085 Jenkins Nanovic Hall<br>
+                University of Notre Dame<br>
+                Notre Dame, IN 46556<br>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-2"><i class="fa fa-lg fa-envelope"></i></td>
+              <td class="col-10"><a href="mailto:hdownes@nd.edu">hdownes@nd.edu</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- col-sm-4 -->
+  
+      <!-- Heading and title section (will appear first on mobile) -->
+      <div class="col-sm-8 px-4 order-1 order-md-2">
+        <h1>Henry Downes</h1>
         <p class="position-title mt-2 mb-1">PhD Candidate</p>
         <p class="position-title mt-0 mb-4">The University of Notre Dame</p>
   
@@ -113,32 +138,10 @@
         </ul>
       </div>
       <!-- col-sm-8 -->
-  
-      <div class="col-sm-4 order-sm-1 order-2"> <!-- Adjusted -->
-        <div class="text-center">
-          <img src="img/headshot.jpg" class="rounded img-fluid shadow-sm" alt="professional headshot">
-        </div>
-  
-        <table class="table mt-4" id="contact-table">
-          <tbody>
-            <tr class="d-flex">
-              <td class="col-2"><i class="fa fa-fw fa-lg fa-home"></i></td>
-              <td class="col-10">3085 Jenkins Nanovic Hall<br>
-                University of Notre Dame<br>
-                Notre Dame, IN 46556<br>
-              </td>
-            </tr>
-            <tr class="d-flex">
-              <td class="col-2"><i class="fa fa-lg fa-envelope"></i></td>
-              <td class="col-10"><a href="mailto:hdownes@nd.edu">hdownes@nd.edu</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <!-- col-sm-4 -->
     </div>
     <!-- .row -->
   </div>
+  <!-- container -->
 
 
 
