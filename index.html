@@ -78,81 +78,150 @@
     </div>
   </nav>
 
-  <div class="container" id="wrapper">
-    <div class="row">
-      <div class="col-sm-4 d-none d-sm-block"> <!-- Headshot on large screens -->
-        <div class="text-center">
-          <img src="img/headshot.jpg" class="rounded img-fluid shadow-sm" alt="professional headshot">
+  <!-- LARGE SCREENS -->
+  <div class="d-none d-lg-block">
+    <div class="container" id="wrapper">
+      <div class="row">
+    
+        <!-- Left Column -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+          <!-- Headshot -->
+          <div id="headshot-section" class="text-center mb-4">
+            <img src="img/headshot.jpg" class="rounded img-fluid shadow-sm" alt="professional headshot">
+          </div>
+    
+          <!-- Contact Box -->
+          <div id="contact-box-section" class="mt-4">
+            <table class="table" id="contact-table">
+              <tbody>
+                <tr class="d-flex">
+                  <td class="col-2"><i class="fa fa-fw fa-lg fa-home"></i></td>
+                  <td class="col-10">
+                    3085 Jenkins Nanovic Hall<br>
+                    University of Notre Dame<br>
+                    Notre Dame, IN 46556<br>
+                  </td>
+                </tr>
+                <tr class="d-flex">
+                  <td class="col-2"><i class="fa fa-lg fa-envelope"></i></td>
+                  <td class="col-10"><a href="mailto:hdownes@nd.edu">hdownes@nd.edu</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-        <table class="table mt-4" id="contact-table">
-          <tbody>
-            <tr class="d-flex">
-              <td class="col-2"><i class="fa fa-fw fa-lg fa-home"></i></td>
-              <td class="col-10">3085 Jenkins Nanovic Hall<br>
-                University of Notre Dame<br>
-                Notre Dame, IN 46556<br>
-              </td>
-            </tr>
-            <tr class="d-flex">
-              <td class="col-2"><i class="fa fa-lg fa-envelope"></i></td>
-              <td class="col-10"><a href="mailto:hdownes@nd.edu">hdownes@nd.edu</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="col-sm-8"> <!-- Header Info -->
-        <h1>Henry Downes</h1>
-        <p class="position-title mt-2 mb-1">PhD Candidate</p>
-        <p class="position-title mt-0 mb-4">The University of Notre Dame</p>
-
-        <p>I am a PhD candidate and applied microeconomist in the Economics Department at the University of Notre Dame. I am interested in labor economics, public economics, and economic demography, with applications in both historical and contemporary settings.</p>
-
-        <p><b>I am on the job market during the 2024-2025 academic year.</b> My <a href="/uploads/Downes_JMP.pdf" target="_blank">Job Market Paper</a> explores how the rise of organized labor shaped economic and demographic outcomes during the American Baby Boom.</p>
-
-        <p>I have worked as a Research Associate at the <a href="https://leo.nd.edu/" target="_blank">Wilson-Sheehan Lab for Economics Opportunities</a>, and in 2023-2024 I was a Graduate Fellow of the Notre Dame Institute for Advanced Study. My work has been supported by the Economic History Association and the Smith Richardson Foundation.</p>
-
-        <h3><span>Education</span></h3>
-        <ul id="education" class="list-group">
-          <li class="list-group-item">
-            <p><strong>PhD, Economics (expected 2025)</strong><br>
-              <span class="university">University of Notre Dame</span>
-            </p>
-          </li>
-          <li class="list-group-item">
-            <p><strong>MA, Economics (2020)</strong><br>
-              <span class="university">University of Notre Dame</span>
-            </p>
-          </li>
-          <li class="list-group-item">
-            <p><strong>BA, Economics, Political Science, and History (2015)</strong><br>
-              <span class="university">The University of Alabama</span>
-            </p>
-          </li>
-        </ul>
+    
+        <!-- Right Column -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+          <!-- Header -->
+          <div id="header-section">
+            <h1>Henry Downes</h1>
+            <p class="position-title mt-2 mb-1">PhD Candidate</p>
+            <p class="position-title mt-0 mb-4">The University of Notre Dame</p>
+          </div>
+    
+          <!-- Rest of Content -->
+          <div id="rest-of-content-section">
+            <p>I am a PhD candidate and applied microeconomist in the Economics Department at the University of Notre Dame. I am interested in labor economics, public economics, and economic demography, with applications in both historical and contemporary settings.</p>
+    
+            <p><b>I am on the job market during the 2024-2025 academic year.</b> My <a href="/uploads/Downes_JMP.pdf" target="_blank">Job Market Paper</a> explores how the rise of organized labor shaped economic and demographic outcomes during the American Baby Boom.</p>
+    
+            <p>I have worked as a Research Associate at the <a href="https://leo.nd.edu/" target="_blank">Wilson-Sheehan Lab for Economics Opportunities</a>, and in 2023-2024 I was a Graduate Fellow of the Notre Dame Institute for Advanced Study. My work has been supported by the Economic History Association and the Smith Richardson Foundation.</p>
+    
+            <h3><span>Education</span></h3>
+            <ul id="education" class="list-group">
+              <li class="list-group-item">
+                <p><strong>PhD, Economics (expected 2025)</strong><br>
+                  <span class="university">University of Notre Dame</span>
+                </p>
+              </li>
+              <li class="list-group-item">
+                <p><strong>MA, Economics (2020)</strong><br>
+                  <span class="university">University of Notre Dame</span>
+                </p>
+              </li>
+              <li class="list-group-item">
+                <p><strong>BA, Economics, Political Science, and History (2015)</strong><br>
+                  <span class="university">The University of Alabama</span>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+    
       </div>
     </div>
+  </div>
+
+  <!-- SMALL SCREENS -->
+  <div class="d-block d-lg-none">
+    <div class="container" id="wrapper">
+      <div class="row">
     
-    <div class="row d-block d-sm-none"> <!-- Header Info on small screens -->
-      <div class="col-12 text-center mb-4"> <!-- Headshot -->
-        <img src="img/headshot.jpg" class="rounded img-fluid shadow-sm" alt="professional headshot">
-      </div>
-      <div class="col-12"> <!-- Contact Table on small screens -->
-        <table class="table mt-4" id="contact-table">
-          <tbody>
-            <tr class="d-flex">
-              <td class="col-2"><i class="fa fa-fw fa-lg fa-home"></i></td>
-              <td class="col-10">3085 Jenkins Nanovic Hall<br>
-                University of Notre Dame<br>
-                Notre Dame, IN 46556<br>
-              </td>
-            </tr>
-            <tr class="d-flex">
-              <td class="col-2"><i class="fa fa-lg fa-envelope"></i></td>
-              <td class="col-10"><a href="mailto:hdownes@nd.edu">hdownes@nd.edu</a></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+
+          <!-- Header -->
+          <div id="header-section">
+            <h1>Henry Downes</h1>
+            <p class="position-title mt-2 mb-1">PhD Candidate</p>
+            <p class="position-title mt-0 mb-4">The University of Notre Dame</p>
+          </div>
+
+          <!-- Headshot -->
+          <div id="headshot-section" class="text-center mb-4">
+            <img src="img/headshot.jpg" class="rounded img-fluid shadow-sm" alt="professional headshot">
+          </div>
+
+          <!-- Rest of Content -->
+          <div id="rest-of-content-section">
+            <p>I am a PhD candidate and applied microeconomist in the Economics Department at the University of Notre Dame. I am interested in labor economics, public economics, and economic demography, with applications in both historical and contemporary settings.</p>
+    
+            <p><b>I am on the job market during the 2024-2025 academic year.</b> My <a href="/uploads/Downes_JMP.pdf" target="_blank">Job Market Paper</a> explores how the rise of organized labor shaped economic and demographic outcomes during the American Baby Boom.</p>
+    
+            <p>I have worked as a Research Associate at the <a href="https://leo.nd.edu/" target="_blank">Wilson-Sheehan Lab for Economics Opportunities</a>, and in 2023-2024 I was a Graduate Fellow of the Notre Dame Institute for Advanced Study. My work has been supported by the Economic History Association and the Smith Richardson Foundation.</p>
+    
+            <h3><span>Education</span></h3>
+            <ul id="education" class="list-group">
+              <li class="list-group-item">
+                <p><strong>PhD, Economics (expected 2025)</strong><br>
+                  <span class="university">University of Notre Dame</span>
+                </p>
+              </li>
+              <li class="list-group-item">
+                <p><strong>MA, Economics (2020)</strong><br>
+                  <span class="university">University of Notre Dame</span>
+                </p>
+              </li>
+              <li class="list-group-item">
+                <p><strong>BA, Economics, Political Science, and History (2015)</strong><br>
+                  <span class="university">The University of Alabama</span>
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact Box -->
+          <div id="contact-box-section" class="mt-4">
+            <table class="table" id="contact-table">
+              <tbody>
+                <tr class="d-flex">
+                  <td class="col-2"><i class="fa fa-fw fa-lg fa-home"></i></td>
+                  <td class="col-10">
+                    3085 Jenkins Nanovic Hall<br>
+                    University of Notre Dame<br>
+                    Notre Dame, IN 46556<br>
+                  </td>
+                </tr>
+                <tr class="d-flex">
+                  <td class="col-2"><i class="fa fa-lg fa-envelope"></i></td>
+                  <td class="col-10"><a href="mailto:hdownes@nd.edu">hdownes@nd.edu</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+    
       </div>
     </div>
   </div>
